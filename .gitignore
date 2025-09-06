@@ -1,0 +1,38 @@
+# ──────────────────────────────────────────────────────────────
+# IntelliJ IDEA / JetBrains IDE artefacts
+# ──────────────────────────────────────────────────────────────
+.idea/           # Entire IDE configuration folder (workspace, settings, etc.)
+*.iml            # Module files
+*.ipr            # Project files (rarely used now)
+*.iws            # Window settings
+
+# ──────────────────────────────────────────────────────────────
+# OS‑specific system files
+# ──────────────────────────────────────────────────────────────
+.DS_Store        # macOS Finder metadata
+Thumbs.db        # Windows thumbnail cache
+
+# ──────────────────────────────────────────────────────────────
+# Markdown‑specific & build artefacts
+# ──────────────────────────────────────────────────────────────
+# ┌ Static‑site generators (uncomment the ones you use)
+
+# MkDocs
+# site/            # Generated HTML output
+# mkdocs.yml~      # Backup file
+
+# Jekyll
+# _site/           # Generated site
+
+# Hugo
+# public/          # Generated site
+# resources/.cache # Cache directory
+
+# Pandoc
+*.pdf             # Compiled PDFs
+*.docx            # Compiled Word docs
+*.epub            # Compiled EPUBs
+
+# ┌ General temporary / log files
+*.tmp
+*.log
